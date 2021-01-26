@@ -1,0 +1,81 @@
+rce - Class component
+rfce - Functional component
+rconst - constructor
+
+Component
+
+- Component is the main part of react (small parts which make up the whole page)
+- 2 ways to make a Component (Function and class)
+- Functional Component has no state easy to use 
+- Class Component has state, lifecycle hooks 
+
+JSX (JavaScript XML)
+- JSX is important.
+- JSX is extension to the javascript language syntax
+- JSX tags have tag name, attributes and children
+- Finnaly JSX changes to js
+
+JSX differences
+
+class -> className
+for -> htmlFor
+
+onclick -> onClick
+tabindex -> tabIndex
+
+props vs State
+
+props
+
+- props get passed as parameter
+- immutable
+- props (Function components)
+- this.props (Class components)
+
+State 
+
+- State is manager within the component
+- variables declared in the function body
+- state can be changed
+useState Hook - Functional components
+this.state- Class components
+
+setState
+- Always make use of setState and never modify the state directly
+- if the state is needed to be updated using prev state then use prevState
+- if there is code to be executed after setState then pass in a function as an argument instead of the regular object
+
+Event Handling
+
+- camelCase is used for events
+- Pass function name in curly brackets without '()'
+- 'this' keyword is undefined in a event handler
+-> Approach 1 - Binding in render method
+-> Approach 2 - Using arrow function in render method
+-> Approach 3 - Binding the event handler in the constructor instead of in render
+-> Approach 4 - Use arrow function as a class property
+
+Conditional Rendering
+
+- if/else
+- elemenmt varialbles
+- ternary operator
+- shot circuit operator
+
+Lists and keys
+
+- Reacts updates the tree 
+  instead of tearing it down 
+  and building a new one
+
+- keys are used to verify which are needed to be
+included and which needs to be added
+
+- 3 approaches in css inclusion
+1. css file
+2. inline
+3. modules
+
+Life cycle methods
+
+Mounting, updating, unmounting and error Handling
